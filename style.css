@@ -1,0 +1,155 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Inter;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    background-image: url(./sea.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.li a {
+    color: #ff0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.brand {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem;
+    color: yellow;
+    text-shadow: 1px 1px 0 #00000080;
+}
+
+.ul {
+    text-transform: capitalize;
+    padding: 1rem;
+}
+
+.li {
+    display: inline;
+    padding: 1rem;
+}
+
+
+.container {
+    background-color: #00000080;
+    text-align: center;
+    padding: 3rem 1rem;
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px 1px #00000020;
+    margin: 5rem auto 10rem;
+}
+
+.container h1 {
+    color: white;
+    margin-top: 0;
+
+}
+
+.container p {
+    color: darkgray;
+    text-transform: capitalize;
+}
+
+.btn,
+.btn:visited {
+
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    font-weight: 500;
+    padding: .8rem 1rem;
+    color: black;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #fefe75;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #c2ebec50;
+    padding: 4rem;
+}
+
+.highlights h2 {
+    align-self: baseline;
+    grid-column: 1/4;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    flex-grow: 1;
+    padding: 0;
+    color: rgb(46, 46, 54);
+    margin: 0;
+}
+
+.highlights,
+p {
+    color: rgb(46, 46, 54);
+}
+
+.country {
+    color: rgb(61, 36, 86);
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: 350px;
+    height: 200px;
+    display: block;
+}
+
+.img-container h3 {
+    text-transform: uppercase;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    padding: .5rem;
+}
+
+.footer .icon {
+    width: 50px;
+    height: 30px;
+    fill: white;
+}

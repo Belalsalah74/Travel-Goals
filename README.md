@@ -1,3 +1,3 @@
 # Description
 
-Landing page and detail page for travel goals.
+Landing [Page](https://spiffy-speculoos-1c86e8.netlify.app/) for travel goals.

@@ -15,6 +15,7 @@ body {
     padding: 0;
     background-image: url(./images/sea.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -31,8 +32,8 @@ a:hover {
     background-color: #2c2c0520;
     border-radius: 3px;
 }
-.nav {
 
+.nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -74,7 +75,6 @@ a:hover {
     border-radius: 7px;
     box-shadow: 1px 1px 2px 1px #00000020;
     margin: 0 auto 10rem;
-    position: relative;
 }
 
 .hero-container h1 {
@@ -83,7 +83,7 @@ a:hover {
 
 }
 
-.hero-container p{
+.hero-container p {
     color: rgb(206, 206, 206);
     text-transform: capitalize;
     margin-bottom: 2rem;
@@ -159,4 +159,28 @@ a:hover {
     width: 50px;
     height: 30px;
     fill: white;
+}
+
+
+
+@media screen and (max-width:448px) {
+
+    .nav .ul {
+        display: none;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .hero-container {
+        width: 300px
+    }
+
+    .img-container {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
 }

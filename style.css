@@ -163,7 +163,7 @@ a:hover {
 
 
 
-@media screen and (max-width:448px) {
+@media screen and (max-width:500px) {
 
     .nav .ul {
         display: none;
